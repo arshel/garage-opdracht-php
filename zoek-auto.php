@@ -28,5 +28,14 @@
     <input type="submit">
 </form>
 
+<form action="zoek-type2.php" method="post">
+    <label for="autozoek"> welke type auto zoekt u? </label>
+    <input id="autozoek" name="autotypevak" type="text">
+    <br>
+
+    <input type="submit">
+</form>
+
+
 </body>
 </html>
