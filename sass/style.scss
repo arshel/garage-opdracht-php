@@ -1,15 +1,57 @@
-body{
-  margin: 0;
+@mixin background {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
 }
 
 
-a {
-  list-style-type: none;
-  color:black;
-  font-size: 20px;
+body{
+  background: rgb(111,107,113);
+  background: linear-gradient(90deg, rgba(111,107,113,1) 0%, rgba(69,65,65,1) 49%, rgba(152,149,146,1) 100%);
+  margin: 0;
+ // background: url("../parkeergarage.jpg");
+  @include background;
+}
+h1,h2 {
+  margin: 0;
+  text-align: center;
   font-family: 'Montserrat', sans-serif;
 }
 
-li{
-  list-style-type: none;}
-  
+ul {
+  border: 2px solid black;
+  margin-left: 1%;
+width: 15%;
+  padding: 1% 0 1% 0;
+  border-radius: 2%;
+
+  li {
+
+    padding: 2%;
+    list-style-type: none;
+    a {
+
+      list-style-type: none;
+      color: black;
+      font-size: 21px;
+      font-weight: 400;
+      font-family: 'Montserrat', sans-serif;
+    }
+  }
+}
+
+li:hover{
+  background-color: white;
+}
+.wrap{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  //margin-top: 10%;
+  //margin-left: 8%;
+
+}
+
