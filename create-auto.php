@@ -14,6 +14,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900" rel="stylesheet">
     <title>garage menu</title>
 </head>
 <body>
@@ -38,7 +39,7 @@
     <label for="klantid">klantid:</label>
     <input id="klantid" name="klantidvak" type="text">
     <br>
-    <input type="submit">
+    <input type="submit" class="btn">
 </form>
 
 </body>
