@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>gar-update-auto3</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900" rel="stylesheet">
 </head>
 <body>
 <h1>garage update auto3</h1>

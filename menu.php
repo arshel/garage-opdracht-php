@@ -5,7 +5,6 @@
  * Date: 10-4-2018
  * Time: 11:56
  */
-
 ?>
 
 
@@ -25,31 +24,33 @@
 <h2>KLANT</h2>
 
 <div class="container">
-<div class="wrap">
-<ul>
-    <li><a href="create-klant.php">create</a></li>
-    <li><a href="read-klant.php">read</a></li>
-    <li><a href="zoek-klant.php">zoek op klantid</a></li>
-    <li><a href="update-klant.php">update</a></li>
-    <li><a href="delete-klant.php">delete</a></li>
-    <li><a href="read-klant-auto.php">read klant-auto</a></li>
+    <div class="wrap">
+        <ul>
+            <li><a href="create-klant.php">create</a></li>
+            <li><a href="read-klant.php">read</a></li>
+            <li><a href="zoek-klant.php">zoek op klantid</a></li>
+            <li><a href="update-klant.php">update</a></li>
+            <li><a href="delete-klant.php">delete</a></li>
+            <li><a href="read-klant-auto.php">read klant-auto</a></li>
 
-</ul>
-</div>
+        </ul>
+    </div>
 
 
     <h2>AUTO</h2>
-<div class="wrap">
-<ul>
+    <div class="wrap">
+        <ul>
 
-    <li><a href="create-auto.php">create</a></li>
-    <li><a href="read-auto.php">read</a></li>
-    <li><a href="zoek-auto.php">zoek op autoid/type</a></li>
-    <li><a href="update-auto.php">update</a></li>
-    <li><a href="delete-auto.php">delete</a></li>
-    <li><a href="read-klant-auto.php">read klant-auto</a></li>
-</ul>
-</div>
+            <li><a href="create-auto.php">create</a></li>
+            <li><a href="read-auto.php">read</a></li>
+            <li><a href="zoek-auto.php">zoek op autoid/type</a></li>
+            <li><a href="update-auto.php">update</a></li>
+            <li><a href="delete-auto.php">delete</a></li>
+            <li><a href="read-klant-auto.php">read klant-auto</a></li>
+            <li><a href="https://github.com/arshel">github</a></li>
+        </ul>
+
+    </div>
 </div>
 </body>
 </html>

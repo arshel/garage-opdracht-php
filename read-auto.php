@@ -23,13 +23,19 @@
 
 <p>dit zijn alle gegevens uit de tabel auto van de database gegevens</p>
 
+<div id="content">
+
+
+</div>
 
 <?php
 
 require_once "connect.php";
 
-$sql = $connect->prepare("SELECT autokenteken, automerk, autotype, autokmstand, klant_id FROM auto");
+$sql = $connect->prepare("SELECT autokenteken, automerk, autotype, autokmstand, image, klant_id FROM auto");
 $sql->execute();
+
+
 
 echo "<table>";
 echo "<thead>";
@@ -37,6 +43,7 @@ echo "<th> kenteken</th>";
 echo "<th>auto merk</th>";
 echo "<th>autotype</th>";
 echo "<th> autokmstand</th>";
+echo "<th>image</th>";
 echo "<th>klant id</th>";
 echo "</thead>";
 foreach ($sql as $rij){
@@ -45,6 +52,7 @@ foreach ($sql as $rij){
     echo "<td>" . $rij["automerk"] . "</td>";
     echo "<td>" . $rij["autotype"] . "</td>";
     echo "<td>" . $rij["autokmstand"] . "</td>";
+    echo "<td>" . $rij["image"] . "</td>";
     echo "<td>" . $rij["klant_id"] . "</td>";
     echo "<tr>";
 }

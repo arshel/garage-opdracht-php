@@ -24,7 +24,6 @@
 
 
 <form action="create-auto2.php" method="post" enctype="multipart/form-data">
-
     <label for="kenteken"> auto kenteken: </label>
     <input id="kenteken" name="kentekenvak" type="text">
     <br>
@@ -40,7 +39,8 @@
     <label for="klantid">klantid:</label>
     <input id="klantid" name="klantidvak" type="text">
     <br>
-    <input type="file" name="image">
+    <label for="fileToUpload"> foto upload</label>
+    <input type="file" name="fileToUpload" id="fileToUpload">
     <br>
     <input type="submit" class="btn" name="submit">
 </form>
