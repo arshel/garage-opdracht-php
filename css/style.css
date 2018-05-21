@@ -1,6 +1,7 @@
 body {
-  background: #6f6b71;
-  background: linear-gradient(90deg, #6f6b71 0%, #454141 49%, #989592 100%);
+  background-color: grey;
+  background-image: -webkit-linear-gradient(63deg, darkgrey 50%, grey 50%);
+  min-height: 500px;
   margin: 0;
   font-family: 'Montserrat', sans-serif; }
 
@@ -34,7 +35,7 @@ li:hover {
 .btn {
   border-radius: 5px;
   outline-color: black;
-  border: 2px solid darkgrey;
+  border: 2px solid dimgrey;
   background-color: transparent;
   width: 90px;
   height: 45px;
@@ -73,6 +74,6 @@ table tbody tr {
   height: 25px; }
 
 tbody tr:nth-child(odd) {
-  background-color: #6b7487; }
+  background-color: dimgrey; }
 
 /*# sourceMappingURL=style.css.map */

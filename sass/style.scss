@@ -1,6 +1,7 @@
 body{
-  background: rgb(111,107,113);
-  background: linear-gradient(90deg, rgba(111,107,113,1) 0%, rgba(69,65,65,1) 49%, rgba(152,149,146,1) 100%);
+  background-color: grey;
+  background-image: -webkit-linear-gradient(63deg, darkgrey 50%, grey 50%);
+  min-height: 500px;
   margin: 0;
   font-family: 'Montserrat', sans-serif;
 
@@ -45,7 +46,7 @@ li:hover{
 .btn {
   border-radius: 5px;
   outline-color: black;
-  border: 2px solid darkgrey;
+  border: 2px solid dimgrey;
   background-color: transparent;
   width: 90px;
   height: 45px;
@@ -92,18 +93,6 @@ table tbody tr {
 }
 
 tbody tr:nth-child(odd) {
-  background-color: #6b7487;
-}
-
-#img_div{
-  width: 80%;
-  padding: 5px;
-  margin: 15px auto;
-  border: 1px solid #cbcbcb;
-}
-#img_div:after{
-  content: "";
-  display: block;
-  clear: both;
+  background-color: dimgrey;
 }
 
